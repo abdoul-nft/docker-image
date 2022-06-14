@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
   res.send('Hello World');
 });
 
-server.listen(PORT, () => {
+app.listen(PORT, () => {
     console.log({
         node: `http://localhost:${PORT}`
     })
